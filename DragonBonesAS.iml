@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="DragonBones">
+    <configurations>
+      <configuration name="DragonBones" target-platform="Mobile" pure-as="true" output-type="Library" output-file="DragonBones.swc" output-folder="$MODULE_DIR$/bin">
+        <dependencies>
+          <entries>
+            <entry library-id="f165fd5a-3736-468a-ae54-df572ee23d2c">
+              <dependency linkage="External" />
+            </entry>
+          </entries>
+          <sdk name="Flex4.12.1_AIR13.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Flex4.12.1_AIR13.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="f165fd5a-3736-468a-ae54-df572ee23d2c" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../Starling/PrimaryFeather-Starling-Framework-1.5/starling/bin/starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
