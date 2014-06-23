@@ -233,7 +233,7 @@
 					{
 						this.dispatchEvent(event);
 					}
-					_eventList.length = 0;
+					if (_eventList != null) _eventList.length = 0;
 				}
 			}
 			else
